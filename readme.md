@@ -4,7 +4,22 @@ A scenario-based test that evaluates how users react in different situations bas
 
 This project uses a dynamic question generator and a scoring system to determine user behavior patterns such as passive, normal, aggressive, or chaotic.
 
-## Settings
+## Installation
+
+```
+git clone https://github.com/MAzraDR/Behavior-Identifier.git
+cd Behavior-Identifier
+npm install
+
+```
+
+## Run the Server
+
+```
+npm run dev
+```
+
+## Scenario Settings
 
 ### 1. Relationship
 
@@ -91,6 +106,15 @@ The result is determined by combining:
 -   Total score
 -   Dominant behavior
 
+Result Classification
+
+| Score Range | Result              |
+| ----------- | ------------------- |
+| 0–15        | Functioning Human   |
+| 16–35       | Mildly Questionable |
+| 36–65       | Walking Problem     |
+| 66–95       | Certified Disaster  |
+| 96+         | Actual Menace       |
 
 Example Result (will change later):
 
